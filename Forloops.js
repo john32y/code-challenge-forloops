@@ -1,9 +1,9 @@
 // function washDish(Dishes) {
-//   for(let i=0; i<=Dishes; i++) {
-//     console.log(`How many times i told you to wash dishes ${i} times!`)
+//   for(let i=1; i<=Dishes; i++) {
+//     console.log(`How many times i told you to wash dishes huh? ${i} time!`)
 //   }
 // };
-//  washDish(20);
+//  washDish(10);
 
 //  function moreLoop(numFinger) {
 //   for(let i=1; i<=numFinger; i++) {
@@ -51,14 +51,22 @@
 // }
 // arrayLoop()
 
-function setBlastOff(countDown) {
-  console.log('Blast Off in...');
-  for (let i = countDown; i >= 0; i--) {
-    let countDownText = i + "*".repeat(i);
-    console.log(countDownText);
-    if (i === 0) {
-      console.log('🚀 Blast Off!');
-    }
-  }
-}
-const BlastOff = setBlastOff(10);
+// function setBlastOff(countDown) {
+//   console.log('Blast Off in...');
+//   for (let i = countDown; i >= 0; i--) {
+//     let countDownText = i + "*".repeat(i);
+//     console.log(countDownText);
+//     if (i === 0) {
+//       console.log('💨🚀 Blast Off!');
+//     }
+//   }
+// }
+// const BlastOff = setBlastOff(10);
+
+// function MidLoop () {
+//   for(let i=1; i <= 10; i++) {
+//     console.log(i)
+//   }
+// };
+
+// MidLoop()
